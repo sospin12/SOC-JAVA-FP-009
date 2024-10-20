@@ -1,18 +1,20 @@
-## Getting Started
+## STRING AND METHODS
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Those are the string and its methos, those are exercises from programming fundamentals.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+### TOOLS:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. CLASS Strings  and its methods: chatAt(), substring(), indexOf(), equals(), length().
+2. App class: menu, 
+3. Method main: initialize class Scanner and call method manu.
+4. Method menu, control Code Structure: switch to functions
+3. Switch to functions:
+    * compare2stirngs(Scanner scan): Class System, Class Scanner, Contro Code Structure If.
+    * countCharacters(Scanner scan): Class System, Class Scanner, Contro Code Structure If, iterative control structures for loop.
+    * reverseString(Scanner scan).
+    * subStrings(Scanner scan).
+    * printPosition(Scanner scan).
+    * strReversed(Scanner scan).
+    * charGame(Scanner scan): one-line print condition, Class string method substring and concatenation.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).

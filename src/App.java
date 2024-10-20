@@ -101,13 +101,14 @@ public class App {
         System.err.println("String reversed: " + str2);
     }
 
-    // EXCESICE 5
+    // EXCESICE 6
     public static void charGame(Scanner scan) {
         System.out.println("Case of string length even or odd print characters in determined positions");
         System.out.println("Enter a string: ");
         String str1 = scan.nextLine();
-        System.out.println((str1.length() % 2 == 0) ? (str1.substring(0,1) + str1.substring(str1.length()-1))
-                : (str1.substring(0,1) + str1.substring((str1.length() / 2) , (str1.length() / 2+1)) + str1.substring(str1.length()-1)));
+        System.out.println((str1.length() % 2 == 0) ? (str1.substring(0, 1) + str1.substring(str1.length() - 1))
+                : (str1.substring(0, 1) + str1.substring((str1.length() / 2), (str1.length() / 2 + 1))
+                        + str1.substring(str1.length() - 1)));
 
     }
 
